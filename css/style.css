@@ -1,0 +1,87 @@
+:root {
+  --text-color: #667085;
+  --main-color: #8E2424;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #3A404E;
+  width: 1440px;
+  height: 80px; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+}
+
+
+.logo{
+  display: flex;
+  padding-left: 112px;
+  padding-top: 26.5px;
+  padding-bottom: 26.5px;
+  padding-right: 119px;
+}
+
+
+.action-navegation{
+  color: var(--text-color);
+  text-decoration: none;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+ .btn {
+    margin-right: 0px;
+    padding-right: 130px;
+    align-items: center;
+  }
+  
+  .btn.-cad{
+    margin-left: 8px;
+    padding: 10px 18px;
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    color: #fff;
+    align-content: center;
+} 
+
+.cabecalho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 407px;
+  width: 1440px;
+}
+
+.cabecalho span{
+  padding-top: 96px;
+  padding-bottom: 24px;
+  color: var(--main-color)
+}
+
+h1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  padding-bottom: 36px;
+}
+
+.cabecalho p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-color)
+}
