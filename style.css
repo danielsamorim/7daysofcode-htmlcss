@@ -1,0 +1,55 @@
+body{
+  background-color: #fff;
+}
+nav{
+  display: flex;
+  color: #3A404E;
+  width: 1440px;
+  height: 80px; 
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  padding-left: 112px;
+  padding-top: 26.5px;
+  padding-bottom: 26.5px;
+  padding-right: 119px;
+  align-items: center;
+}
+
+.action-logo{
+  margin-top: 28px;
+  margin-bottom: 28px;
+  margin-left: 8px;
+}
+
+.navegation{
+  padding-right: 398px;
+}
+.action-navegation{
+  display: inline-flex;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.btn {
+  margin-top: 28px;
+  margin-right: 0px;
+  padding-right: 130px;
+}
+
+.btn.-cad{
+  margin-left: 8px;
+  padding: 10px 18px; 
+  background-color: #8E2424;
+  border: 1px solid #8E2424;
+  border-radius: 8px;
+  color: #fff;
+  align-content: center;
+}
