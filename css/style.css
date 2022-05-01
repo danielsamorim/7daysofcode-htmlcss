@@ -132,7 +132,7 @@ h2{
   top: 775px;
 }
 
-.vagas span{
+.vaga-titulo{
   margin-top: 100px;
   margin-bottom: 20px;
   font-size: 14px;
@@ -165,4 +165,43 @@ h2{
   color: var(--text-color);
   padding-top: 20px;
   padding-bottom: 64px;
+}
+
+.vaga{
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+  height: 136px;
+  margin: 0px;
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #EAECF0;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.titulo-vaga{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+}
+
+.informacoes{
+  padding-top: 32px;
+}
+
+.informacoes span{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+  padding-right: 24px;
+}
+
+ h3{
+  align-self: flex-start;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  margin-left: 336px;
 }
