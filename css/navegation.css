@@ -1,0 +1,44 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #3A404E;
+  width: 1440px;
+  height: 80px; 
+}
+
+
+.logo{
+  display: flex;
+  padding-left: 112px;
+  padding-top: 26.5px;
+  padding-bottom: 26.5px;
+  padding-right: 119px;
+}
+
+
+.action-navegation{
+  color: var(--text-color);
+  text-decoration: none;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+ .btn {
+    margin-right: 0px;
+    padding-right: 130px;
+    align-items: center;
+  }
+  
+  .btn.-cad{
+    margin-left: 8px;
+    padding: 10px 18px;
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    color: #fff;
+    align-content: center;
+} 

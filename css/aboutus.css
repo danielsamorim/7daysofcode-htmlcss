@@ -1,0 +1,59 @@
+.cabecalho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 407px;
+  width: 1440px;
+}
+
+.cabecalho span{
+  padding-top: 96px;
+  padding-bottom: 24px;
+  color: var(--main-color)
+}
+
+h1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  padding-bottom: 36px;
+}
+
+.texto-suporte{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-color)
+}
+
+.metricas-container{
+  display: flex;
+  box-sizing: border-box;
+  width: 1440px;
+  height: 288px;
+  padding-left:120px;
+  padding-right: 120px;
+  justify-content: space-around;
+}
+
+h2{
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 60px;
+  line-height: 72px;
+  color: var(--main-color);
+}
+
+.metricas-container span{
+  padding-bottom: 8px;
+}
+
+
+.metricas-container p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+}

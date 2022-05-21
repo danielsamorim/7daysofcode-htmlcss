@@ -1,0 +1,38 @@
+.depoimentos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 500px;
+}
+
+.depoimento-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #C3191908;
+  border-radius: 16px;
+  width: 1216px;
+  height: 404px;
+  padding-top: 64px;
+}
+
+.depoimento-div span{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8E2424;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#quote{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 36px;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}

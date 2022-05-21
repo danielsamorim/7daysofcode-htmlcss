@@ -1,22 +1,20 @@
+@import "navegation.css";
+@import "aboutus.css";
+@import "vagas.css";
+@import "depoimentos.css";
+@import "formulario.css";
+
 :root {
   --text-color: #667085;
   --main-color: #8E2424;
 }
 
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: #3A404E;
-  width: 1440px;
-  height: 80px; 
-}
 
 
-body {
+/* body {
   width: 100%;
   height: 100vh;
-}
+} */
 
 * {
   margin: 0;
@@ -27,256 +25,9 @@ body {
 }
 
 
-.logo{
-  display: flex;
-  padding-left: 112px;
-  padding-top: 26.5px;
-  padding-bottom: 26.5px;
-  padding-right: 119px;
-}
-
-
-.action-navegation{
-  color: var(--text-color);
-  text-decoration: none;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-
- .btn {
-    margin-right: 0px;
-    padding-right: 130px;
-    align-items: center;
-  }
-  
-  .btn.-cad{
-    margin-left: 8px;
-    padding: 10px 18px;
-    background-color: #8E2424;
-    border: 1px solid #8E2424;
-    border-radius: 8px;
-    color: #fff;
-    align-content: center;
-} 
-
-.cabecalho{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 407px;
-  width: 1440px;
-}
-
-.cabecalho span{
-  padding-top: 96px;
-  padding-bottom: 24px;
-  color: var(--main-color)
-}
-
-h1{
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 60px;
-  padding-bottom: 36px;
-}
-
-.texto-suporte{
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: var(--text-color)
-}
-
-.metricas-container{
-  display: flex;
-  box-sizing: border-box;
-  width: 1440px;
-  height: 288px;
-  padding-left:120px;
-  padding-right: 120px;
-  justify-content: space-around;
-}
-
-h2{
-  font-style: normal;
-  font-weight: 600px;
-  font-size: 60px;
-  line-height: 72px;
-  color: var(--main-color);
-}
-
-.metricas-container span{
-  padding-bottom: 8px;
-}
-
-
-.metricas-container p{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--text-color);
-}
-
-.vagas{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 1440px;
-  height: 1798px;
-  left: 0px;
-  top: 775px;
-}
-
-.vaga-titulo{
-  margin-top: 100px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  padding: 4px 12px;
-  line-height: 20px;
-  color: var(--main-color);
-  background: rgba(142, 36, 36, 0.05);
-  border-radius: 16px;
-}
-
-.vagas h2{
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  color: #000;
-}
-
-.vagas img{
-  width: 1216px;
-  height: 400px;
-  left: 112px;
-  margin-right: 112px;
-  top: 298px;
-}
-
-.vagas p{
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: var(--text-color);
-  padding-top: 20px;
-  padding-bottom: 64px;
-}
-
-.vaga{
-  display: flex;
-  flex-direction: column;
-  width: 768px;
-  height: 136px;
-  margin: 0px;
-  padding: 24px;
-  margin-bottom: 24px;
-  border: 1px solid #EAECF0;
-  box-sizing: border-box;
-  border-radius: 16px;
-}
-
-.titulo-vaga{
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
-  color: #101828;
-}
-
-.informacoes{
-  padding-top: 32px;
-}
-
-.carga-salario{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--text-color);
-  padding-right: 24px;
-}
-
  h3{
   align-self: flex-start;
   margin-top: 64px;
   margin-bottom: 32px;
   margin-left: 336px;
-}
-
-.depoimentos{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1440px;
-  height: 500px;
-}
-
-.depoimento-div{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #C3191908;
-  border-radius: 16px;
-  width: 1216px;
-  height: 404px;
-  padding-top: 64px;
-}
-
-.depoimento-div span{
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  color: #8E2424;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-#quote{
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  padding-bottom: 36px;
-  text-align: center;
-  margin-top: 16px;
-  margin-bottom: 32px;
-}
-
-.formulario{
-  background: #F9FAFB;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 96px 0px;
-}
-
-.formulario h3{
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-}
-
-.envio{
-  display: flex;
-  margin-top: 40px;
-}
-
-input{
-  width: 360px;
-  height: 48px;
-  border-radius: 8px;
-  border: 1px solid #D0D5DD;
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-footer{
-  font-size: 16px;
-  color: var(--text-color);
-  margin-top: 32px;
 }
