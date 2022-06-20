@@ -5,6 +5,7 @@
   align-items: center;
   width: 1440px;
   height: 500px;
+  font-family: 'Inter', sans-serif;
 }
 
 .depoimento-div{
@@ -16,6 +17,7 @@
   width: 1216px;
   height: 404px;
   padding-top: 64px;
+  margin-right: 75px;
 }
 
 .depoimento-div span{

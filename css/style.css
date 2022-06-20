@@ -3,6 +3,7 @@
 @import "vagas.css";
 @import "depoimentos.css";
 @import "formulario.css";
+@import "metricas.css";
 
 :root {
   --text-color: #667085;
@@ -16,7 +17,6 @@ body {
 } 
 
 * {
-  font-family: 'Inter', sans-serif;
   text-decoration: none;
 }
 
