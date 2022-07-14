@@ -1,7 +1,7 @@
 # 7daysofcode-htmlcss
 
 ## Sobre o projeto
-Esse projeto foi feito com no 7 Days of Code para praticar as tecnologias HTML e o CSS. 
+Esse projeto foi feito com  base no desafio 7 Days of Code. O objetivo era criar uma landing page.
 
 
 :white_check_mark:  Projeto em Concluído  :white_check_mark:
